@@ -22,7 +22,6 @@ body {
 main {
     min-width: 100vw;
     min-height: 100vh;
-    background: var(--very-dark-blue-main);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,6 +152,16 @@ p {
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
+}
+
+svg.second {
+    width: 800px;
+    height: 800px;
+}
+
+svg {
+    width: 300px;
+    height: 300px;
 }
 
 .footer {
